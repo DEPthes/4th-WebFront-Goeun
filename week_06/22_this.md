@@ -286,7 +286,7 @@ console.log(getThisBinding.call(thisArg, 1, 2, 3));
 // {a:1}
 ```
 2. bind
-* apply, call 메서드오 달리 함수를 호출하지 않고 this로 사용할 객체만 전달한다.
+* apply, call 메서드와 달리 함수를 호출하지 않고 this로 사용할 객체만 전달한다.
 * 메서드의 this와 메서드 내부의 중첩 함수 또는 콜백 함수의 this가 불일치하는 문제를 해결하기 위해 유용하게 사용된다.
 ```javascript
 const person = {
